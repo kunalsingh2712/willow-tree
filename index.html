@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Willow Tree — Facts & Benefits</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <img class="hero-img" src="banner.jpg" alt="Willow Tree">
+    <div class="hero-overlay">
+      <h1>🌿 Willow Tree</h1>
+      <p><em>Salix alba</em></p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card" id="overview">
+      <h2>Overview</h2>
+      <p>The willow tree (<em>Salix alba</em>) is a graceful deciduous tree known for its slender branches and narrow, lance-shaped leaves. Found mainly near rivers and wetlands, it symbolizes resilience, flexibility, and renewal. Its soothing presence and gentle motion in the wind make it one of nature’s most calming trees.</p>
+    </section>
+
+    <section class="card" id="description">
+      <h2>Detailed Description</h2>
+      <ul>
+        <li><strong>Family:</strong> Salicaceae</li>
+        <li><strong>Height:</strong> 5–30 meters</li>
+        <li><strong>Leaves:</strong> Narrow, pointed, and finely serrated</li>
+        <li><strong>Bark:</strong> Grey-brown with long ridges that become rougher with age</li>
+        <li><strong>Flowers:</strong> Small yellow-green catkins appearing in early spring</li>
+        <li><strong>Habitat:</strong> Commonly found along riverbanks, lakesides, and moist valleys</li>
+      </ul>
+      <p>There are over 400 species of willow trees across the world, with each adapted to different climates and altitudes. They are fast-growing and play a key role in wetland ecosystems.</p>
+    </section>
+
+    <section class="card" id="fun-fact">
+      <h2>Fun Fact</h2>
+      <p>Willows can grow from a single cutting — even a small branch placed in moist soil can take root and grow into a full tree! Their bark contains <strong>salicin</strong>, a compound that inspired the creation of aspirin.</p>
+    </section>
+
+    <section class="card" id="benefits">
+      <h2>Benefits</h2>
+      <ul>
+        <li><strong>Medicinal:</strong> Willow bark has been used for centuries to relieve pain, inflammation, and fever.</li>
+        <li><strong>Environmental:</strong> The tree’s roots prevent soil erosion and stabilize riverbanks.</li>
+        <li><strong>Craftsmanship:</strong> Lightweight wood used in basket weaving and cricket bats.</li>
+        <li><strong>Spiritual:</strong> Symbol of healing, reflection, and renewal in various traditions.</li>
+      </ul>
+    </section>
+
+    <section class="card" id="mythology">
+      <h2>Historical & Mythological Significance</h2>
+      <p>In ancient China, the willow was associated with immortality and the power of rebirth. In Greek mythology, the willow was sacred to Hecate, goddess of magic and the moon. In India and the Himalayan regions, it is believed that willow branches ward off negative energy and bring peace to homes. Celtic people regarded the willow as the “Tree of Enchantment,” representing intuition and inner wisdom.</p>
+    </section>
+
+    <section class="card" id="ecology">
+      <h2>Ecological Importance</h2>
+      <p>Willow trees play a vital role in maintaining river ecosystems. Their deep roots help filter water and prevent flooding. They provide shelter for birds, insects, and small animals, and act as nurseries for aquatic life. The leaves, when they fall, enrich the soil with organic matter, supporting overall biodiversity.</p>
+    </section>
+
+    <section class="card" id="care">
+      <h2>Care & Planting Tips</h2>
+      <ul>
+        <li>Plant in moist, well-drained soil with access to full sunlight.</li>
+        <li>Ideal for areas near ponds, lakes, or rivers.</li>
+        <li>Prune annually to maintain structure and remove weak branches.</li>
+        <li>Avoid planting too close to buildings or pipelines — willow roots seek water and can spread widely.</li>
+      </ul>
+    </section>
+  </main>
+
+  <button id="backToTop" title="Back to Top">⬆</button>
+
+  <script>
+  const btn = document.getElementById('backToTop');
+  window.onscroll = () => {
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+      btn.style.display = 'block';
+    } else {
+      btn.style.display = 'none';
+    }
+  };
+  btn.onclick = () => {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  };
+  </script>
+</body>
+</html>
